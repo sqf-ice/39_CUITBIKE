@@ -1,0 +1,36 @@
+{ Using PSTWRITER 16.6.0 d001Jan-08-2016 at 11:09:12 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U10.13" ignored for U10: MAIN_MSP430, A03_MODULAR (231.14, 144.78). Connecting pin to net "GND".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.22" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "GND".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.13" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "GND".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.21" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "GND".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.43" ignored for U3: MAIN_MSP430, A02_MCU (83.82, 63.50). Connecting pin to net "P3.6".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.44" ignored for U3: MAIN_MSP430, A02_MCU (83.82, 63.50). Connecting pin to net "P3.7".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.55" ignored for U3: MAIN_MSP430, A02_MCU (83.82, 63.50). Connecting pin to net "BT_LED".
+#8 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.24" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "BT_LED".
+#9 WARNING(ORCAP-36038): "No_connect" property on Pin "U16.8" ignored for U16: MAIN_MSP430, A02_MCU (40.64, 27.94). Connecting pin to net "N109732791".
+#10 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.56" ignored for U3: MAIN_MSP430, A02_MCU (83.82, 63.50). Connecting pin to net "P5.7".
+#11 WARNING(ORCAP-36038): "No_connect" property on Pin "U16.1" ignored for U16: MAIN_MSP430, A02_MCU (40.64, 27.94). Connecting pin to net "N10973881".
+#12 WARNING(ORCAP-36038): "No_connect" property on Pin "U16.7" ignored for U16: MAIN_MSP430, A02_MCU (40.64, 27.94). Connecting pin to net "N109733756".
+#13 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.1" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "BT_TXD".
+#14 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.2" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "BT_RXD".
+#15 WARNING(ORCAP-36038): "No_connect" property on Pin "U12.12" ignored for U12: MAIN_MSP430, A03_MODULAR (226.06, 205.74). Connecting pin to net "N35776".
+#16 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.15" ignored for U1: MAIN_MSP430, A01_POWER (119.38, 35.56). Connecting pin to net "3455_HSON".
+#17 WARNING(ORCAP-36006): Part Name "AN9520-245_AN9520-245_AN9520-245" is renamed to "AN9520-245_AN9520-245_AN9520-24".
+#18 WARNING(ORCAP-36006): Part Name "AN9520-245_GPS1003-1575_GPS1003-1575" is renamed to "AN9520-245_GPS1003-1575_GPS1003".
+#19 WARNING(ORCAP-36006): Part Name "SWITCH-SPST-4P_SW-4P-5R4X4R5_SW-4P-5R4X4R5" is renamed to "SWITCH-SPST-4P_SW-4P-5R4X4R5_SW".
+#20 WARNING(ORCAP-36006): Part Name "SWITCH-SPST-4P_SW-4P-5R4X4R5_RESET" is renamed to "SWITCH-SPST-4P_SW-4P-5R4X4R5_RE".
+#21 WARNING(ORCAP-36006): Part Name "SWITCH-SPST-4P_SW-4P-5R4X4R5_DOWN" is renamed to "SWITCH-SPST-4P_SW-4P-5R4X4R5_DO".
+#22 WARNING(ORCAP-36006): Part Name "JLX12864G-086_JLX12864G-086_JLX12864G-086" is renamed to "JLX12864G-086_JLX12864G-086_JLX".
+#23 WARNING(ORCAP-36006): Part Name "CSTCE-8M00_X-3P-3R2X1R3-SMD_CSTCE-8M00" is renamed to "CSTCE-8M00_X-3P-3R2X1R3-SMD_CST".
+#24 WARNING(ORCAP-36006): Part Name "CSTCE-8M00_X-3P-3R2X1R3-SMD_CSTCE-16M00" is renamed to "CSTCE-8M00_X-3P-3R2X1R3-SMD_C_1".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... F:\Ñ¸À×ÏÂÔØ\39_CUITBIKE\V1.1\SCH\ALLEGRO/pstchip.dat
+
+Loading... F:\Ñ¸À×ÏÂÔØ\39_CUITBIKE\V1.1\SCH\ALLEGRO/pstchip.dat
+
+Loading... F:\Ñ¸À×ÏÂÔØ\39_CUITBIKE\V1.1\SCH\ALLEGRO/pstxprt.dat
+
+Loading... F:\Ñ¸À×ÏÂÔØ\39_CUITBIKE\V1.1\SCH\ALLEGRO/pstxnet.dat
+packaging the design view...

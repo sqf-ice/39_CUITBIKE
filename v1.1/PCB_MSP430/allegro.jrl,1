@@ -1,0 +1,204 @@
+\t (00:00:05) allegro 16.6-2015 S060 (v16-6-112ET) Windows 32
+\t (00:00:05)     Journal start - Fri Feb 05 11:20:18 2016
+\t (00:00:05)         Host=XXXLZJXXX User=HUIYUAN-LZJ Pid=5352 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:07) Opening existing design...
+\d (00:00:08) Design opened: F:/迅雷下载/39_CUITBIKE/v1.1/PCB_MSP430/CUITBIKE_V1.1_MSP430.brd
+\i (00:00:09) trapsize 11989
+\i (00:00:09) trapsize 11615
+\i (00:00:09) trapsize 12054
+\i (00:00:09) trapsize 12239
+\i (00:00:09) trapsize 12655
+\i (00:00:09) trapsize 12655
+\i (00:00:10) generaledit 
+\t (00:00:11) >>EDA365 Skill V2.3 加载成功!
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 35.7635 5.1372
+\i (00:00:21) trapsize 6328
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 36.0166 5.2638
+\i (00:00:21) trapsize 3164
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 36.2697 5.8333
+\i (00:00:21) trapsize 1582
+\i (00:00:22) roam start
+\i (00:00:22) roam y 96
+\i (00:00:22) roam x -16
+\i (00:00:22) roam y 96
+\i (00:00:22) roam x -16
+\i (00:00:22) roam y 48
+\i (00:00:22) roam end
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 40.1295 4.8524
+\i (00:00:23) trapsize 791
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 40.1295 4.8524
+\i (00:00:23) trapsize 395
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 40.1295 4.8524
+\i (00:00:23) trapsize 198
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 40.1295 4.8524
+\i (00:00:23) trapsize 99
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 40.3036 4.8564
+\i (00:00:23) trapsize 49
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 40.3036 4.8564
+\i (00:00:24) trapsize 25
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 40.3037 4.8564
+\i (00:00:24) trapsize 12
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3037 4.8564
+\i (00:00:24) trapsize 25
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3038 4.8565
+\i (00:00:24) trapsize 49
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3038 4.8566
+\i (00:00:24) trapsize 99
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3039 4.8566
+\i (00:00:24) trapsize 198
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3039 4.8566
+\i (00:00:24) trapsize 396
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3039 4.8566
+\i (00:00:24) trapsize 791
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3039 4.8565
+\i (00:00:24) trapsize 1582
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 40.3040 4.8565
+\i (00:00:24) trapsize 3164
+\i (00:00:25) roam start
+\i (00:00:25) roam x -64
+\i (00:00:25) roam y 96
+\i (00:00:25) roam x -48
+\i (00:00:25) roam y 96
+\i (00:00:25) roam x -32
+\i (00:00:25) roam y 64
+\i (00:00:25) roam x -32
+\i (00:00:25) roam y 32
+\i (00:00:25) roam x -16
+\i (00:00:25) roam y 48
+\i (00:00:26) roam end
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 31.4769 -10.9273
+\i (00:00:26) trapsize 1582
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 31.4769 -10.9273
+\i (00:00:26) trapsize 791
+\i (00:00:27) roam start
+\i (00:00:27) roam x 16
+\i (00:00:27) roam y -80
+\i (00:00:27) roam x 16
+\i (00:00:27) roam y -48
+\i (00:00:28) roam end
+\i (00:00:28) roam start
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -80
+\i (00:00:28) roam y -48
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -32
+\i (00:00:29) roam y -32
+\i (00:00:29) roam y -48
+\i (00:00:29) roam x 16
+\i (00:00:29) roam y -32
+\i (00:00:29) roam end
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 33.5179 -3.3326
+\i (00:00:30) trapsize 1582
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 33.5179 -3.3327
+\i (00:00:30) trapsize 3164
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 33.1381 -4.2820
+\i (00:00:30) trapsize 6329
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 33.1224 16.7936
+\i (00:00:30) trapsize 12658
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 116.2854 80.0835
+\i (00:00:30) trapsize 17279
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 176.9361 121.6436
+\i (00:00:30) trapsize 17279
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 178.3184 121.2980
+\i (00:00:30) trapsize 17279
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 178.3184 120.6068
+\i (00:00:30) trapsize 17279
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 65.6599 5.8749
+\i (00:00:31) trapsize 8639
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 57.1933 7.6028
+\i (00:00:31) trapsize 4320
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 55.1199 8.4668
+\i (00:00:31) trapsize 2160
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 54.7310 10.4108
+\i (00:00:31) trapsize 4320
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 62.1610 10.4107
+\i (00:00:31) trapsize 8639
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 68.5543 9.5468
+\i (00:00:31) trapsize 17279
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 86.7401 25.5728
+\i (00:00:31) trapsize 17279
+\i (00:00:33) 3d_viewer 
+\i (00:00:35) setwindow pcb3D
+\i (00:00:35) trapsize 17279
+\i (00:00:35) setwindow pcb
+\i (00:00:35) generaledit 
+\i (00:00:37) setwindow pcb3D
+\i (00:00:37) trapsize 17279
+\i (00:00:39) view3d refresh_auto 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) exit 
+\t (00:01:12)     Journal end - Fri Feb 05 11:21:26 2016

@@ -1,0 +1,85 @@
+\t (00:00:27) allegro 16.6 S050 (v16-6-112DX) Windows 32
+\t (00:00:27)     Journal start - Sat Aug 08 15:53:08 2015
+\t (00:00:27)         Host=THINKPADE420 User=xxxlzjxxx Pid=20272 CPUs=4
+\t (00:00:27) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:27) 
+\d (00:00:27) Design opened: E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd
+\i (00:00:27) generaledit 
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 99.172 178.809
+\i (00:00:28) trapsize 39607
+\t (00:00:29) EDA365 Skill Loaded Successful!
+\t (00:00:29) >>EDA365 Skill V2.2 Loaded Successfully!
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -106.788 440.215
+\i (00:00:29) trapsize 19803
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 1025.971 891.734
+\i (00:00:30) trapsize 39607
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 851.701 860.049
+\i (00:00:31) trapsize 19803
+\i (00:00:36) netin 
+\i (00:00:42) setwindow form.niparams
+\i (00:00:42) FORM niparams other  
+\i (00:00:43) FORM niparams import  
+\i (00:00:45) fillin confirm
+\i (00:00:45) setwindow pcb
+\i (00:00:45) generaledit 
+\i (00:00:48) netin 
+\i (00:00:49) setwindow form.niparams
+\i (00:00:49) FORM niparams other  
+\i (00:00:50) FORM niparams browse_filename  
+\i (00:00:54) fillin "E:\MakingProduct\39_CUITBIKE\v1.1\SCH\ALLEGRO\pxlBA.txt"
+\i (00:00:55) FORM niparams import  
+\t (00:00:55) Starting 3rd party (netin) Logic Import...
+\t (00:00:59) Opening existing design...
+\i (00:01:00) setwindow pcb
+\i (00:01:00) trapsize 19803
+\i (00:01:01) generaledit 
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 328.890 1394.743
+\i (00:01:07) trapsize 9902
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 253.637 1054.124
+\i (00:01:07) trapsize 19803
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 281.362 1180.866
+\i (00:01:07) trapsize 39607
+\i (00:01:10) netin 
+\i (00:01:11) setwindow form.niparams
+\i (00:01:11) FORM niparams import  
+\t (00:01:11) Starting Cadence Logic Import...
+\w (00:01:14) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:01:14) Opening existing design...
+\i (00:01:14) setwindow pcb
+\i (00:01:14) trapsize 39607
+\i (00:01:15) generaledit 
+\i (00:01:51) save 
+\i (00:01:52) fillin yes 
+\i (00:01:52) generaledit 
+\i (00:01:56) EDA365_Open 
+\e (00:02:01) Finish current command first.
+\e (00:02:06) Finish current command first.
+\e (00:02:11) Finish current command first.
+\e (00:02:16) Finish current command first.
+\e (00:02:21) Finish current command first.
+\e (00:02:26) Finish current command first.
+\e (00:02:31) Finish current command first.
+\e (00:02:36) Finish current command first.
+\e (00:02:41) Finish current command first.
+\i (00:02:44) fillin "H:\CadenceLib\allegro\AN9520-245.dra"
+\i (00:02:44) cd "H:\CadenceLib\allegro"
+\t (00:02:44) Opening existing design...
+\i (00:02:44) trapsize 835
+\i (00:02:44) trapsize 808
+\i (00:02:44) trapsize 835
+\i (00:02:44) trapsize 835
+\t (00:02:45)     Journal end - Sat Aug 08 15:55:26 2015

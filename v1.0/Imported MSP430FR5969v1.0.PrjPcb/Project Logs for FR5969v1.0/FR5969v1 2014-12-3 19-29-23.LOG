@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=UCA0_TXD Pin=U1-24
+Removed Pin From Net: NetName=GND Pin=U2-0
+Removed Pin From Net: NetName=GND Pin=U2-0
+Removed Pin From Net: NetName=GND Pin=U2-0
+Removed Pin From Net: NetName=GND Pin=U2-0
+Added Component: Designator=LCD1(12864-IIC)
+Added Pin To Net: NetName=ROM_N Pin=LCD1-1
+Added Pin To Net: NetName=ROM_OUT Pin=LCD1-2
+Added Pin To Net: NetName=ROM_SCK Pin=LCD1-3
+Added Pin To Net: NetName=ROM_CS Pin=LCD1-4
+Added Pin To Net: NetName=VCC1_+3.3V Pin=LCD1-5
+Added Pin To Net: NetName=GND Pin=LCD1-6
+Added Pin To Net: NetName=VCC1_+3.3V Pin=LCD1-7
+Added Pin To Net: NetName=LCD-SCK Pin=LCD1-8
+Added Pin To Net: NetName=LCD-SDA Pin=LCD1-9
+Added Pin To Net: NetName=LCD-RS Pin=LCD1-10
+Added Pin To Net: NetName=LCD-RST Pin=LCD1-11
+Added Pin To Net: NetName=LCD-CS Pin=LCD1-12
+Added Pin To Net: NetName=P2.0 Pin=U1-24
+Added Member To Class: ClassName=LCD12864 Member=Component LCD1 JLX12864G-086
+Added Room: Name=LCD12864
+Added Room: Name=Modular
+Added Room: Name=MSP430FR5969
+Added Room: Name=Power

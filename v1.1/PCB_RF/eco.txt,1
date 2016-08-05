@@ -1,0 +1,683 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  12864_CS     pins MOVED FROM this net (to net name listed on right)
+                                 U3.7            948.898 755.591
+                                                                W25QXX_SPI_MISO
+                                 U11.12                         
+                                                                            GND
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.12           19.055 174.606
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_EN     pins MOVED FROM this net (to net name listed on right)
+                                 R34.2           215.000 1195.59
+                                                                       VCC2_3V3
+                                 U3.8            929.213 755.591
+                                                                W25QXX_SPI_MOSI
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_LEDA   pins MOVED FROM this net (to net name listed on right)
+                                 U3.2            1047.32 755.591
+                                                                    12864_RESET
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_RESET  pins MOVED FROM this net (to net name listed on right)
+                                 U3.6            968.583 755.591
+                                                                     W25QXX_\CS
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.11           19.055 274.606
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_ROM_CS pins MOVED FROM this net (to net name listed on right)
+                                 U3.1            1067.00 755.591
+                                                                       12864_RS
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.4            19.055 974.606
+                                 U11.21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_ROM_IN pins MOVED FROM this net (to net name listed on right)
+                                 U3.78           1155.59 626.654
+                                                                           P6.1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_ROM_OUT pins MOVED FROM this net (to net name listed on right)
+                                 U3.79           1155.59 646.339
+                                                                      12864_SCL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_ROM_SCK pins MOVED FROM this net (to net name listed on right)
+                                 U3.80           1155.59 666.024
+                                                                      12864_SDA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.3            19.055 1074.60
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_RS     pins MOVED FROM this net (to net name listed on right)
+                                 U3.5            988.268 755.591
+                                                                 W25QXX_SPI_CLK
+                                 U11.10                         
+                                                                            GND
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.10           19.055 374.606
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_SCL    pins MOVED FROM this net (to net name listed on right)
+                                 U3.3            1027.63 755.591
+                                                                       12864_CS
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.8            19.055 574.606
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  12864_SDA    pins MOVED FROM this net (to net name listed on right)
+                                 U3.4            1007.95 755.591
+                                                                       12864_EN
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U10.9            19.055 474.606
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AF_OUT       pins MOVED FROM this net (to net name listed on right)
+                                 C41.2           1389.40 510.000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BT_RXD       pins MOVED FROM this net (to net name listed on right)
+                                 U13.2                          
+                                                                            GND
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U12.2           265.000 1499.05
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BT_TXD       pins MOVED FROM this net (to net name listed on right)
+                                 U13.1                          
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 C40.1           1760.00 574.409
+                                                                       N1380680
+                                 LED5.2          -145.00 1555.00
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                                                        N141719
+                                 R35.2            49.409 1140.00
+                                                                       N1367731
+                                 U10.1            19.055 1274.60
+                                                                   12864_ROM_IN
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 BAT2.2                         
+                                 IPX1.2                         
+                                 IPX1.3                         
+                                 IPX2.2                         
+                                 IPX2.3                         
+                                 LED6.2                         
+                                 U10.6            19.055 774.606
+                                 U10.13          1475.74 142.717
+                                 U10.14          1475.74 242.717
+                                 U10.15          1475.74 1208.07
+                                 U10.16          1475.74 1308.07
+                                 U11.24                         
+                                 U12.13          265.000 2148.66
+                                 U12.21          727.598 2217.55
+                                 U12.22          776.811 2148.66
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPS_TXD      pins ADDED TO this new net
+                                 U11.20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MIC_IN       pins MOVED FROM this net (to net name listed on right)
+                                 C43.2           212.402 1475.00
+                                                                        N138671
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00690       pins MOVED FROM this net (to net name listed on right)
+                                 R3.2            1589.40 185.000
+                                                                        N173943
+                                 R4.1            1589.40 235.000
+                                                                        N173581
+                                 U1.11           1287.67 184.528
+                                                                        N173581
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01062       net RENAMED (to net name listed on right)           N173707      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01196       net RENAMED (to net name listed on right)           N173743      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01520       net RENAMED (to net name listed on right)           N173847      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N001930      net RENAMED (to net name listed on right)           N1734530     
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N02308       net RENAMED (to net name listed on right)           N173931      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02320       pins MOVED FROM this net (to net name listed on right)
+                                 LED1.1          1885.00 280.000
+                                                                        N173943
+                                 R2.2            1885.00 160.591
+                                                                        N173581
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02402       net RENAMED (to net name listed on right)           N173969      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02406       net RENAMED (to net name listed on right)           N173973      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02755       net RENAMED (to net name listed on right)           N173653      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02764       net RENAMED (to net name listed on right)           N174029      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03268       net RENAMED (to net name listed on right)           N174157      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03456       net RENAMED (to net name listed on right)           N174185      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03488       net RENAMED (to net name listed on right)           N174205      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04073       pins MOVED FROM this net (to net name listed on right)
+                                 C8.1            1090.59 140.000
+                                                                        N174389
+                                 R8.2            1090.59  85.000
+                                                                        N174389
+                                 R13.1           1090.59  35.000
+                                                                        N173353
+                                 U1.1            1155.78  72.323
+                                                                        N174389
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04092       pins MOVED FROM this net (to net name listed on right)
+                                 C4.1            1104.40 440.000
+                                                                        N173883
+                                 R5.2            1104.40 385.000
+                                                                        N173883
+                                 R9.1            1155.59 335.000
+                                                                        N173883
+                                 U1.16           1195.15 237.677
+                                                                        N173353
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05348       pins MOVED FROM this net (to net name listed on right)
+                                 R9.2            1104.40 335.000
+                                                                            GND
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R14.1           1045.59 335.000
+                                                                        N174389
+                                 U1.18           1155.78 237.677
+                                                                        N173883
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05804       net RENAMED (to net name listed on right)           N174663      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17870       pins MOVED FROM this net (to net name listed on right)
+                                 C21.1           1105.00 940.591
+                                                                       VCC1_3V3
+                                 D2.2            1185.00 947.008
+                                                                       VCC1_3V3
+                                 R26.1           1005.00 889.409
+                                                                       VCC1_3V3
+                                 R27.1           955.000 889.409
+                                                                       VCC1_3V3
+                                 U6.8            1105.00 1022.63
+                                                                       VCC1_3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23293       pins MOVED FROM this net (to net name listed on right)
+                                 U10.2            19.055 1174.60
+                                                                  12864_ROM_OUT
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 ANT1.1                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N28281       pins DELETED FROM this net (all pins deleted)
+                                 U1.17           1175.47 237.677
+               pins MOVED FROM this net (to net name listed on right)
+                                 Q1.1            1657.59 1441.69
+                                                                         N66864
+                                 R7.2            1684.40 1370.00
+                                                                        N173353
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N29515       pins MOVED FROM this net (to net name listed on right)
+                                 U12.12          265.000 2089.60
+                                                                         N35776
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N32226       pins MOVED FROM this net (to net name listed on right)
+                                 R38.2           1695.59 510.000
+                                                                          BT_EN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N32743       pins MOVED FROM this net (to net name listed on right)
+                                 R36.2           1585.59 510.000
+                                                                         N35854
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R38.1           1644.40 510.000
+                                                                         N65101
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N32747       pins MOVED FROM this net (to net name listed on right)
+                                 C41.1           1440.59 510.000
+                                                                         N35776
+                                 R36.1           1534.40 510.000
+                                                                         N35796
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33047       pins MOVED FROM this net (to net name listed on right)
+                                 C43.1           137.598 1475.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N35776       pins MOVED FROM this net (to net name listed on right)
+                                 C42.1           215.591 1085.00
+                                                                        N137565
+                                 L11.2           215.000 980.591
+                                                                       N1367731
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L12.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N35796       pins MOVED FROM this net (to net name listed on right)
+                                 R37.1           -24.409 1510.00
+                                                                            GND
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U12.24          776.811 2030.55
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N35854       pins MOVED FROM this net (to net name listed on right)
+                                 LED5.1          -145.00 1465.00
+                                                                       N1416060
+                                 R37.2           -75.591 1510.00
+                                                                         N65101
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 LED6.1                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N40294       pins MOVED FROM this net (to net name listed on right)
+                                 C36.2           819.409 1450.00
+                                                                       VCC2_3V3
+                                 Q2.3            143.307 1365.00
+                                                                        N403830
+                                 U11.7                          
+                                                                            GND
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N66864       pins MOVED FROM this net (to net name listed on right)
+                                 Q2.1             56.693 1327.59
+                                                                         N65101
+                                 R33.2           215.000 1305.59
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66900       pins MOVED FROM this net (to net name listed on right)
+                                 R34.1           215.000 1144.40
+                                                                       N1416060
+                                 R35.1           100.591 1140.00
+                                                                        N136815
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66944       pins MOVED FROM this net (to net name listed on right)
+                                 R33.1           215.000 1254.40
+                                                                         N66864
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N136815      pins ADDED TO this new net
+                                 U11.8                          
+                                 U11.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N137490      pins ADDED TO this new net
+                                 C39.1           1294.40 625.000
+                                 IPX1.1                         
+                                 U11.11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N137558      pins ADDED TO this new net
+                                 C39.2           1345.59 625.000
+                                 U13.6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N137565      pins ADDED TO this new net
+                                 L14.1                          
+                                 U13.4                          
+                                 U13.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N138671      pins ADDED TO this new net
+                                 D3.2                           
+                                 U11.22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N141719      pins ADDED TO this new net
+                                 U11.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N176009      pins ADDED TO this new net
+                                 U10.5            19.055 874.606
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N178527      pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 BAT2.1                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N403830      pins MOVED FROM this net (to net name listed on right)
+                                 L11.1           215.000 929.409
+                                                                        N137490
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L12.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1367472     pins ADDED TO this new net
+                                 L13.2                          
+                                 U13.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1379900     pins ADDED TO this new net
+                                 L13.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1380680     pins ADDED TO this new net
+                                 IPX2.1                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SR_HL        pins MOVED FROM this net (to net name listed on right)
+                                 U3.55           967.598 204.409
+                                                                           P5.6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SR_PD        pins MOVED FROM this net (to net name listed on right)
+                                 U3.54           947.913 204.409
+                                                                           P4.7
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SR_PTT       pins MOVED FROM this net (to net name listed on right)
+                                 U3.53           928.228 204.409
+                                                                           P4.6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SR_RXD       pins MOVED FROM this net (to net name listed on right)
+                                 U3.51           888.858 204.409
+                                                                   12864_ROM_CS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SR_SQ        pins MOVED FROM this net (to net name listed on right)
+                                 U3.56           987.283 204.409
+                                                                           P5.7
+                                 U12.1           265.000 1440.00
+                                                                         BT_TXD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SR_TXD       pins MOVED FROM this net (to net name listed on right)
+                                 U3.52           908.543 204.409
+                                                                        GPS_TXD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  TPA751_/SHDN pins MOVED FROM this net (to net name listed on right)
+                                 U3.57           1006.96 204.409
+                                                                           P7.4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBUS         pins MOVED FROM this net (to net name listed on right)
+                                 R3.1            1640.59 185.000
+                                                                           VMAX
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC1_3V3     pins MOVED FROM this net (to net name listed on right)
+                                 Q2.2             56.693 1402.40
+                                                                       VCC2_3V3
+                                 R32.1           215.000 1415.59
+                                                                       12864_EN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC2_3V3     pins MOVED FROM this net (to net name listed on right)
+                                 C37.2           1765.00 780.591
+                                                                         N66864
+                                 C40.2           1760.00 625.591
+                                                                       N1379900
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 D3.1                           
+                                 L14.2                          
+                                 U10.7            19.055 674.606
+                                 U11.23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_BAT      pins MOVED FROM this net (to net name listed on right)
+                                 D2.1            1185.00 1072.99
+                                                                        N178527
+                                 Q1.2            1732.40 1441.69
+                                                                        N176009
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VMAX         pins MOVED FROM this net (to net name listed on right)
+                                 R2.1            1885.00 109.409
+                                                                           VBUS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  W25QXX_CS    pins MOVED FROM this net (to net name listed on right)
+                                 U3.45           770.748 204.409
+                                                                           P4.0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  W25QXX_SPI_CLK pins MOVED FROM this net (to net name listed on right)
+                                 U3.48           829.803 204.409
+                                                                  12864_ROM_SCK
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  W25QXX_SPI_MISO pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U3.47           810.118 204.409
+                                                                  12864_ROM_OUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  W25QXX_SPI_MOSI pins MOVED FROM this net (to net name listed on right)
+                                 U3.46           790.433 204.409
+                                                                   12864_ROM_IN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AN9520-245_AN9520-245_AN9520-24
+ BATTERY_BATTERY_XH414
+ CAP_C0603_10NF
+ CAP_C0603_1PF
+ CAP_C0603_470PF
+ CAP_C0603_8.2PF
+ CAP_C0805_22UF
+ D DIODE_DO214_1N4148
+ HC-06_HC-06_HC-06
+ INDUCTOR_L0603_27NH
+ INDUCTOR_L0603_6.8NH
+ IPEX_IPEX_IPEX
+ JLX12864G-086_JLX12864G-086_JLX
+ MAX2659_DFN-6_MAX2659
+ NEO-6M_NEO-6M_NEO-6M
+ RES1_R0603_100K
+ RES1_R0603_10R
+ RES1_R0603_2.49M
+ RES1_R0603_200K
+ RES1_R0603_3.32K
+ RES1_R0603_510R
+ RES1_R0603_806K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J3                  ANT-F_ANT-F_ANT-F     1595.00 1930.00
+ MIC1                SPEAKER_MIC_MIC        45.000 1475.00
+ Q3                  NPN_SOT23-NPN_S8050   100.000 1230.00
+ Q4                  MOS P_SOT23-MOS_SI2301 100.000 990.000
+ Q5                  NPN_SOT23-NPN_S8050   100.000 850.000
+ R39                 RES1_R0603_47K         75.000 1085.00
+ R40                 RES1_R0603_47K        215.000 840.000
+ R41                 RES1_R0603_4.7K       175.000 1550.00
+ R42                 RES1_R0603_5.1K       205.000 755.000
+ R43                 RES1_R0603_10K         75.000 755.000
+ SP1                 SPEAKER_MIC_SPEAKER   1860.00 655.000
+ U14                 TPA751_SO-8-150_TPA751 1565.00 650.000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ANT1                AN9520-245_AN9520-245_AN9520-24 
+ BAT2                BATTERY_BATTERY_XH414 
+ D3                  D DIODE_DO214_1N4148  
+ IPX1                IPEX_IPEX_IPEX        
+ IPX2                IPEX_IPEX_IPEX        
+ L12                 INDUCTOR_L0603_BEAD   
+ L13                 INDUCTOR_L0603_6.8NH  
+ L14                 INDUCTOR_L0603_27NH   
+ LED6                LED_LED0805_LED-GREEN 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C29                 CAP_C0603_1PF          75.000 355.000 CAP_C0603_10PF
+ C37                 CAP_C0603_10NF        1765.00 755.000 CAP_C0805_10UF
+ C38                 CAP_C0603_0.1UF       1765.00 930.000 CAP_C0805_10UF
+ C39                 CAP_C0603_8.2PF       1320.00 625.000 CAP_C0805_10UF
+ C40                 CAP_C0603_470PF       1760.00 600.000 CAP_C0603_0.1UF
+ C41                 CAP_C0603_0.1UF       1415.00 510.000 CAP_C0805_10UF
+ C43                 CAP_C0805_22UF        175.000 1475.00 CAP_C0805_10UF
+ L11                 INDUCTOR_L0603_27NH   215.000 955.000 INDUCTOR_L0603_BEAD
+ R2                  RES1_R0603_3.32K      1885.00 135.000 RES1_R0603_1.24K
+ R3                  RES1_R0603_1.24K      1615.00 185.000 RES1_R0603_3.32K
+ R7                  RES1_R0603_2.49M      1710.00 1370.00 RES1_R0603_1.24K
+ R9                  RES1_R0603_80.6K      1130.00 335.000 RES1_R0603_2.49K
+ R13                 RES1_R0603_806K       1065.00  35.000 RES1_R0603_80.6K
+ R15                 RES1_R0603_200K       960.000 605.000 RES1_R0603_2M
+ R16                 RES1_R0603_100K       960.000 555.000 RES1_R0603_1M
+ R32                 RES1_R0603_10K        215.000 1390.00 RES1_R0603_47K
+ R33                 RES1_R0603_100K       215.000 1280.00 RES1_R0603_47K
+ R34                 RES1_R0603_510R       215.000 1170.00 RES1_R0603_5.1K
+ R35                 RES1_R0603_10R         75.000 1140.00 RES1_R0603_10K
+ R36                 RES1_R0603_470R       1560.00 510.000 RES1_R0603_4.7K
+ R37                 RES1_R0603_100K       -50.000 1510.00 RES1_R0603_470R
+ R38                 RES1_R0603_10K        1670.00 510.000 RES1_R0603_4.7K
+ U10                 JLX12864G-086_JLX12864G-086_JLX  20.000 175.000 ANT_2.4G_F_ANT-2_4G-F_ANT_2_4G_
+ U11                 NEO-6M_NEO-6M_NEO-6M  320.000 1530.00 JLX12864G-086_JLX12864G-086_JLX
+ U12                 HC-06_HC-06_HC-06     265.000 1440.00 SR-FRS-1W_SR-FRS-1W_SR-FRS-1W
+ U13                 MAX2659_DFN-6_MAX2659 100.000 860.000 HC-06_HC-06_HC-06
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd               |
+|                                                    Sat Aug 08 15:53:53 2015  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ANT1.2                         PRIM_FILE      .\pstchip.dat
+ BAT2.2                         PRIM_FILE      .\pstchip.dat
+ C29.2           75.000 355.000 PRIM_FILE      .\pstchip.dat
+ C37.2          1765.00 755.000 PRIM_FILE      .\pstchip.dat
+ C38.2          1765.00 930.000 PRIM_FILE      .\pstchip.dat
+ C39.2          1320.00 625.000 PRIM_FILE      .\pstchip.dat
+ C40.2          1760.00 600.000 PRIM_FILE      .\pstchip.dat
+ C41.2          1415.00 510.000 PRIM_FILE      .\pstchip.dat
+ C43.2          175.000 1475.00 PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ IPX1.3                         PRIM_FILE      .\pstchip.dat
+ IPX2.3                         PRIM_FILE      .\pstchip.dat
+ L11.2          215.000 955.000 PRIM_FILE      .\pstchip.dat
+ L12.2                          PRIM_FILE      .\pstchip.dat
+ L13.2                          PRIM_FILE      .\pstchip.dat
+ L14.2                          PRIM_FILE      .\pstchip.dat
+ LED6.2                         PRIM_FILE      .\pstchip.dat
+ R2.2           1885.00 135.000 PRIM_FILE      .\pstchip.dat
+ R3.2           1615.00 185.000 PRIM_FILE      .\pstchip.dat
+ R7.2           1710.00 1370.00 PRIM_FILE      .\pstchip.dat
+ R9.2           1130.00 335.000 PRIM_FILE      .\pstchip.dat
+ R13.2          1065.00  35.000 PRIM_FILE      .\pstchip.dat
+ R15.2          960.000 605.000 PRIM_FILE      .\pstchip.dat
+ R16.2          960.000 555.000 PRIM_FILE      .\pstchip.dat
+ R32.2          215.000 1390.00 PRIM_FILE      .\pstchip.dat
+ R33.2          215.000 1280.00 PRIM_FILE      .\pstchip.dat
+ R34.2          215.000 1170.00 PRIM_FILE      .\pstchip.dat
+ R35.2           75.000 1140.00 PRIM_FILE      .\pstchip.dat
+ R36.2          1560.00 510.000 PRIM_FILE      .\pstchip.dat
+ R37.2          -50.000 1510.00 PRIM_FILE      .\pstchip.dat
+ R38.2          1670.00 510.000 PRIM_FILE      .\pstchip.dat
+ U10.6           20.000 175.000 PRIM_FILE      .\pstchip.dat
+ U11.22                         PRIM_FILE      .\pstchip.dat
+ U12.15         265.000 1440.00 PRIM_FILE      .\pstchip.dat
+ U13.4                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  258                                            |
+|------------------------------------------------------------------------------|

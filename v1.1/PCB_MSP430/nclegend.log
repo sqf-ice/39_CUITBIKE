@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRILL LEGEND                                                     )
+(                                                                     )
+(    Drawing          : CUITBIKE_V1.1_MSP430.brd                      )
+(    Software Version : 16.6-2015S060                                 )
+(    Date/Time        : Fri Jan 08 16:28:01 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Begin processing of drill legend template file 'D:/Cadence/SPB_16.6/share/pcb/text/nclegend/default-mm.dlt' ...
+End of drill legend template file processing.
+
+Begin processing drill holes.
+Warning : Hole 0.9000-0.0000-C-P-0.0000-0.0000 uses multiple drill figures.
+End processing drill holes.
+ERROR(SPMHSK-28): A database add error occurred while drawing the drill chart.
+WARNING(SPMHSK-29): Ignoring the error and continuing drawing the rest of the drill chart.

@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : F5529_CUITBIKE_V1.1.brd                       )
+(    Software Version : 16.6S050                                      )
+(    Date/Time        : Sat Aug 08 16:35:29 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U11 / NEO-6M_NEO-6M_NEO-6M / NEO-6M at (2026.190 1559.992)
+         Placed symbol:  U13 / MAX2659_DFN-6_MAX2659 / DFN-6 at (1963.197 949.630)
+         Placed symbol:  IPX2 / IPEX_IPEX3_IPEX / IPEX3 at (2019.610 749.098)
+         Placed symbol:  IPX1 / IPEX_IPEX3_IPEX / IPEX3 at (2019.610 604.078)
+         Placed symbol:  L14 / INDUCTOR_L0603_27NH / L0603 at (1984.064 521.078)
+         Placed symbol:  BAT2 / BATTERY_BATTERY_XH414 / BATTERY at (1988.000 443.983)
+         Placed symbol:  D3 / D DIODE_SOD-123_1N4148 / SOD-123 at (2023.185 351.790)
+         Placed symbol:  L13 / INDUCTOR_L0603_6.8NH / L0603 at (1984.064 289.262)
+         Placed symbol:  L12 / INDUCTOR_L0603_BEAD / L0603 at (1984.064 237.167)
+         Placed symbol:  LED6 / LED_LED0805_LED-GREEN / LED0805 at (2010.559 178.576)
+
+
+Placed 10 of 10 applicable (10 total) symbols.
+
+-----------------------------------------------------------------------
+

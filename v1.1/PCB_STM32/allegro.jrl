@@ -1,0 +1,140 @@
+\t (00:00:03) allegro 16.6-2015 S054 (v16-6-112EE) Windows 32
+\t (00:00:03)     Journal start - Mon Nov 16 22:52:44 2015
+\t (00:00:03)         Host=THINKPADE420 User=xxxlzjxxx Pid=2152 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe E:\MakingProduct\39_CUITBIKE\v1.1\PCB_STM32\CUITBIKE_V1.1_STM32.brd
+\t (00:00:03) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: E:/MakingProduct/39_CUITBIKE/v1.1/PCB_STM32/CUITBIKE_V1.1_STM32.brd
+\i (00:00:06) trapsize 46675
+\i (00:00:06) trapsize 45155
+\i (00:00:06) trapsize 46938
+\i (00:00:06) trapsize 48583
+\i (00:00:06) trapsize 48583
+\i (00:00:07) generaledit 
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 118.232 147.382
+\i (00:00:08) trapsize 24292
+\t (00:00:09) >>EDA365 Skill V2.3 º”‘ÿ≥…π¶!
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 434.023 317.423
+\i (00:00:10) trapsize 12146
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 229.974 715.806
+\i (00:00:12) trapsize 24292
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 1906.097 1303.664
+\i (00:00:13) trapsize 12146
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 1490.710 1570.872
+\i (00:00:14) trapsize 24292
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 358.720 1046.173
+\i (00:00:17) trapsize 12146
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 966.011 1080.182
+\i (00:00:19) trapsize 24292
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in -63.954 1109.331
+\i (00:00:20) trapsize 12146
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out -185.412 1082.611
+\i (00:00:24) trapsize 24292
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 1515.003 543.336
+\i (00:00:25) trapsize 12146
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 647.792 827.549
+\i (00:00:25) trapsize 24292
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1089.900 254.266
+\i (00:00:26) trapsize 12146
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 1437.270 366.008
+\i (00:00:27) trapsize 24292
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 174.105 210.542
+\i (00:00:28) trapsize 12146
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 212.972 278.558
+\i (00:00:28) trapsize 6073
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 246.981 246.979
+\i (00:00:29) trapsize 12146
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 910.142 621.071
+\i (00:00:30) trapsize 6073
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 910.143 622.285
+\i (00:00:30) trapsize 3036
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 760.748 623.501
+\i (00:00:31) trapsize 6073
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 760.749 617.428
+\i (00:00:31) trapsize 12146
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 782.611 583.420
+\i (00:00:31) trapsize 24292
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 1229.579 127.952
+\i (00:00:31) trapsize 48583
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 335.645 973.303
+\i (00:00:32) trapsize 24292
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 335.645 973.303
+\i (00:00:32) trapsize 12146
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 233.620 1393.550
+\i (00:00:33) trapsize 24292
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in -155.046 1427.558
+\i (00:00:34) trapsize 12146
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in -152.617 1437.274
+\i (00:00:34) trapsize 6073
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in -134.398 1518.651
+\i (00:00:34) trapsize 3036
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -121.037 1576.344
+\i (00:00:35) trapsize 6073
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -121.038 1576.345
+\i (00:00:35) trapsize 12146
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -113.750 1576.345
+\i (00:00:35) trapsize 24292
+\i (00:00:37) exit 
+\t (00:00:37)     Journal end - Mon Nov 16 22:53:18 2015

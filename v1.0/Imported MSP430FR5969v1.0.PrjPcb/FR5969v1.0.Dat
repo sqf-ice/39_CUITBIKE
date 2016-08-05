@@ -1,0 +1,33 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~FR5969v1.0.PrjPcb|ReportField=ProjectFullPath~E:\MakingProduct\Cadence_example\Imported MSP430FR5969v1.0.PrjPcb\FR5969v1.0.PrjPcb|ReportField=Title~Bill of Materials For Project [FR5969v1.0.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~80|ReportField=ReportTime~22:52:45|ReportField=ReportDate~2015/4/22|ReportField=ReportDateTime~2015/4/22 22:52:45|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~FR5969v1.0.PrjPcb|ReportField=DataSourceFullPath~E:\MakingProduct\Cadence_example\Imported MSP430FR5969v1.0.PrjPcb\FR5969v1.0.PrjPcb
+XM-04||BT1|XM-04|XM-04|1
+Li-ION|Multicell Battery|BT2|BAT-2|Battery|1
+Cap|Capacitor|C1, C3, C5, C6, C7, C8, C9, C21|C0805|Cap|8
+Cap Pol1|Polarized Capacitor (Radial)|C2, C4, C10, C14, C16, C17, C20, C22, C23|SMA-C|Cap Pol1|9
+105|Capacitor|C11|C0805|CAP|1
+Cap Pol1|Polarized Capacitor (Radial)|C12|C0805|Cap Pol1|1
+104|Capacitor|C13|C0805|CAP|1
+10pF|Capacitor|C15, C18|C0805|CAP|2
+Cap Pol1|Polarized Capacitor (Radial)|C19|C3216A|Cap Pol1|1
+MBR120|Schottky Diode|D1|DO-214AB|D Schottky|1
+FUSE|Resistor|F1|R1812|Res3|1
+ANT-F|RF Coaxial PCB Connector, MCX; Thru-Hole, Right-Angle Mount Socket, Blunt Post Terminal, 50 Ohm Impedance|J1|MCX5.08-H5|COAX-F|1
+Inductor|Inductor|L1, L2|L-5X4mm-S|Inductor|2
+JLX12864G-086|LCD|LCD1|12864-IIC|JLX12864G-086|1
+LED-R B||LED1, LED2|0805LED - r b|LED-R B|2
+Mic|Microphone|MK1|PIN2|Mic1|1
+NRF24L01||NRF1|NRF24L01|NRF24L01|1
+BMP180|Header, 5-Pin|P1|BMP-180|Header 5|1
+JTAG|Header, 7-Pin, Dual row|P2|JTAG|Header 7X2|1
+SBW|Header, 4-Pin|P3|HDR1X4|Header 4|1
+Res2|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27|R0805|Res2|27
+SW-PB|Switch|S1, S2, S3, S4, S6|SW-SMD1|SW-PB|5
+10K|DIP Switch, 4 Position, SPST|S5|R0805-4P|SW DIP-4|1
+SW-SPDT|SPDT Subminiature Toggle Switch, Right Angle Mounting, Vertical Actuation|S7|HDR1X3|SW-SPDT|1
+Speaker|Loudspeaker|SP1|PIN2|Speaker|1
+SR-FRS-1W||SR1|SR-FRS-1W|SR-FRS-1W|1
+MSP430FR5969|MSP420FRxxxx|U1|QFN-48|MSP430FR5969|1
+USB||U2|USB-mini|USB|1
+LTC3455|LI-CELL charger|U3|QFN-24|LTC3455|1
+TPA751|700mW AB¿‡OP|U4|SO-8|TPA751|1
+CSTCE-8M00||X1|CSTCE-8M00|CSTCE-8M00|1
+32.768K|Crystal Oscillator|X2|32768|XTAL|1

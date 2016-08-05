@@ -1,0 +1,124 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : F5529_CUITBIKE_V1.1.brd                       )
+(    Software Version : 16.6S050                                      )
+(    Date/Time        : Sat Aug 08 15:53:53 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  Yes
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO'
+Design Directory:            '.'
+Old design name:             'E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd'
+New design name:             'E:/MakingProduct/39_CUITBIKE/v1.1/PCB/F5529_CUITBIKE_V1.1.brd'
+
+CmdLine: netrev -$ -i E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO -x -y 1 -z -q netrev_constraint_report.xml E:/MakingProduct/39_CUITBIKE/v1.1/PCB/#Taaaaah20272.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstchip.dat 
+   Finished reading E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstchip.dat (00:00:00.09)
+Starting to read E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxprt.dat 
+   Finished reading E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxprt.dat (00:00:00.00)
+Starting to read E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxnet.dat 
+   Finished reading E:/MakingProduct/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxnet.dat (00:00:00.02)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   <span onMouseOver="showPopup('SPMHNI-192');" onMouseOut="hidePopup();" class="errorMessage" >WARNING(SPMHNI-192)</span>: Device/Symbol check warning detected. [help]
+
+<b><i><font color="darkred">WARNING(SPMHNI-194)</i></b></font>: Symbol 'AN9520-245' used by RefDes ANT1 for device 'AN9520-245_AN9520-245_AN9520-24' not found in PSMPATH or must be "dbdoctor"ed.
+
+#2   <span onMouseOver="showPopup('SPMHNI-192');" onMouseOut="hidePopup();" class="errorMessage" >WARNING(SPMHNI-192)</span>: Device/Symbol check warning detected. [help]
+
+<b><i><font color="darkred">WARNING(SPMHNI-194)</i></b></font>: Symbol 'DO214' used by RefDes D3 for device 'D DIODE_DO214_1N4148' not found in PSMPATH or must be "dbdoctor"ed.
+
+#3   <span onMouseOver="showPopup('SPMHNI-192');" onMouseOut="hidePopup();" class="errorMessage" >WARNING(SPMHNI-192)</span>: Device/Symbol check warning detected. [help]
+
+<b><i><font color="darkred">WARNING(SPMHNI-194)</i></b></font>: Symbol 'IPEX' used by RefDes IPX1 for device 'IPEX_IPEX_IPEX' not found in PSMPATH or must be "dbdoctor"ed.
+
+#4   <span onMouseOver="showPopup('SPMHNI-192');" onMouseOut="hidePopup();" class="errorMessage" >WARNING(SPMHNI-192)</span>: Device/Symbol check warning detected. [help]
+
+<b><i><font color="darkred">WARNING(SPMHNI-194)</i></b></font>: Symbol 'NEO-6M' used by RefDes U11 for device 'NEO-6M_NEO-6M_NEO-6M' not found in PSMPATH or must be "dbdoctor"ed.
+
+#5   <span onMouseOver="showPopup('SPMHNI-192');" onMouseOut="hidePopup();" class="errorMessage" >WARNING(SPMHNI-192)</span>: Device/Symbol check warning detected. [help]
+
+<b><i><font color="darkred">WARNING(SPMHNI-194)</i></b></font>: Symbol 'DFN-6' used by RefDes U13 for device 'MAX2659_DFN-6_MAX2659' not found in PSMPATH or must be "dbdoctor"ed.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           H:/CadenceLib/allegro/ 
+           H:/CadenceLib/xxxlzjxxx/Packages/Packages/ 
+           Z:/HUIYUAN COMMUNICATION/06微气象/WIND(PCB已完成)/LIBRARY/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           H:/CadenceLib/pad/ 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/ 
+           Z:/HUIYUAN COMMUNICATION/06微气象/wind(PCB已完成)/LIBRARY/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Aug 8 15:53:53 2015
+   DESIGN NAME : 'CUITBIKE_V1_1'
+   PACKAGING ON Oct 15 2014 05:53:32
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  5 warnings detected
+
+cpu time      0:03:14
+elapsed time  0:00:01
+
+</PRE>
+<SCRIPT LANGUAGE="JavaScript">var oPopup = window.createPopup();oPopup.document.bgColor="bisque";function showPopup(id){var v = document.getElementById(id);oPopup.document.body.innerHTML = v.innerHTML;var popupBody = oPopup.document.body;oPopup.show(0, 0, 300, 0);var realHeight = popupBody.scrollHeight;oPopup.hide();oPopup.show(15, 15, 300, realHeight, event.srcElement);}function hidePopup(){oPopup.hide();}</SCRIPT><DIV STYLE="display:none;"><DIV ID="SPMHNI-192"><DIV><B>SPMHNI-192:</B><BR>This is a general warning that is normally paired with another message.
+Check the secondary message for more detail.</DIV></DIV><DIV ID="SPMHNI-192"><DIV><B>SPMHNI-192:</B><BR>This is a general warning that is normally paired with another message.
+Check the secondary message for more detail.</DIV></DIV><DIV ID="SPMHNI-192"><DIV><B>SPMHNI-192:</B><BR>This is a general warning that is normally paired with another message.
+Check the secondary message for more detail.</DIV></DIV><DIV ID="SPMHNI-192"><DIV><B>SPMHNI-192:</B><BR>This is a general warning that is normally paired with another message.
+Check the secondary message for more detail.</DIV></DIV><DIV ID="SPMHNI-192"><DIV><B>SPMHNI-192:</B><BR>This is a general warning that is normally paired with another message.
+Check the secondary message for more detail.</DIV></DIV></DIV</BODY></HTML>

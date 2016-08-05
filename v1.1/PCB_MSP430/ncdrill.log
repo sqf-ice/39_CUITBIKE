@@ -1,0 +1,73 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : CUITBIKE_V1.1_MSP430.brd                      )
+(    Software Version : 16.6-2015S060                                 )
+(    Date/Time        : Fri Jan 08 16:29:07 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.3048  P        T01            0.000000     0.000000
+         0.3810  P        T02            0.000000     0.000000
+         0.9000  P        T03            0.000000     0.000000
+         0.9652  P        T04            0.000000     0.000000
+         1.2000  P        T05            0.000000     0.000000
+         3.4036  P        T06            0.000000     0.000000
+
+
+ Drill files being output to directory 'F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/PCB_MSP430/N710_4GMD_V20A_ART' ...
+
+
+
+     'CUITBIKE_V1-1-2.1_MSP430' created for holes connecting TOP and BOTTOM
+     ----------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.3048    0.0000/  0.0000      PLATED        371
+     T02    2.   0.3810    0.0000/  0.0000      PLATED         13
+     T03    3.   0.9000    0.0000/  0.0000      PLATED          6
+     T04    4.   0.9652    0.0000/  0.0000      PLATED         16
+     T05    5.   1.2000    0.0000/  0.0000      PLATED         12
+     T06    6.   3.4036    0.0000/  0.0000      PLATED          4
+
+     ---- Total holes:                                        422
+
+     ---- Total head travel:              12.02 feet (3.67 meters)
+

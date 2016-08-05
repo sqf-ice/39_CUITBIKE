@@ -1,0 +1,100 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : CUITBIKE_V1.1_MSP430.brd                      )
+(    Software Version : 16.6-2015S060                                 )
+(    Date/Time        : Fri Jan 08 11:11:18 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  Yes
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO'
+Design Directory:            '.'
+Old design name:             'F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/PCB_MSP430/CUITBIKE_V1.1_MSP430.brd'
+New design name:             'F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/PCB_MSP430/CUITBIKE_V1.1_MSP430.brd'
+
+CmdLine: netrev -$ -i F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO -x -y 1 -z -q netrev_constraint_report.xml F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/PCB_MSP430/#Taaaabf05436.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstchip.dat 
+   Finished reading F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstchip.dat (00:00:00.03)
+Starting to read F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxprt.dat 
+   Finished reading F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxprt.dat (00:00:00.00)
+Starting to read F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxnet.dat 
+   Finished reading F:/Ñ¸À×ÏÂÔØ/39_CUITBIKE/v1.1/SCH/ALLEGRO/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  E:/CadenceLib/System_Footprint/sys_pcb/ 
+           E:/CadenceLib/allegro/ 
+           E:/CadenceLib/pad/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           G:/HUIYUAN COMMUNICATION/06Î¢ÆøÏó/wind(PCBÒÑÍê³É)/LIBRARY/ 
+           E:/CadenceLib/LibraryBuilder/package/ 
+           G:/HUIYUAN COMMUNICATION/02»¡´¹/CADENCE_PROJECT/Library/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/CadenceLib/System_Footprint/sys_pad/ 
+           E:/CadenceLib/pad/ 
+           G:/HUIYUAN COMMUNICATION/02»¡´¹/CADENCE_PROJECT/Library/ 
+           C:/Users/HUIYUANLZJ/Desktop/wind(PCBÒÑÍê³É)/LIBRARY/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jan 8 11:11:18 2016
+   DESIGN NAME : 'CUITBIKE_V1_1'
+   PACKAGING ON Aug  3 2015 18:16:55
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:03
+elapsed time  0:00:00
+
