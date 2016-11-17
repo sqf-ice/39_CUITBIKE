@@ -3,19 +3,15 @@
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
-      (File "h:\cadencelib\xxxlzjxxx\xxxlzjxxx.olb"
-        (Type "Schematic Library"))
-      (File "e:\cadencelib\xxxlzjxxx\xxxlzjxxx.olb"
+      (File "e:\cadencelib\orcad\hyoc.olb"
         (Type "Schematic Library")))
     (NoModify)
-    (File ".\cuitbike_v1_1.dsn"
-      (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (Board_sim_option "VHDL_flow")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "3")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -29,18 +25,16 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (IREFReportFile
-       "E:\MAKINGPRODUCT\39_CUITBIKE\V1.1\SCH\F5529_CUITBIKE_V1_1.csv")
+    (IREFReportFile "E:\GitHub\test.cc\39_CUITBIKE\v1.2\SCH\CUITBIKE_V1_2.csv")
     (IREFViewOutput "0")
-    (DRC_Scope "0")
+    (DRC_Scope "1")
     (DRC_Action "0")
     (DRC_Create_Warnings "FALSE")
     (DRC_View_Output "FALSE")
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File
-       "E:\MAKINGPRODUCT\39_CUITBIKE\V1.1\SCH\F5529_CUITBIKE_V1_1.DRC")
+    (DRC_Report_File "E:\GitHub\test.cc\39_CUITBIKE\v1.2\SCH\CUITBIKE_V1_2.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -69,7 +63,7 @@
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (DRC_Run_Physical_Custom_DRC "FALSE")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "F:\Ñ¸À×ÏÂÔØ\39_CUITBIKE\V1.1\SCH\ALLEGRO")
+    ("Allegro Netlist Directory" "E:\GITHUB\39_CUITBIKE\V1.2\SCH\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -99,11 +93,13 @@
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "FALSE")
     (BOM_View_Output "FALSE")
-    (RootChangedForceReNetlist "x"))
+    (RootChangedForceReNetlist "x")
+    (File ".\cuitbike_v1_2.dsn"
+      (Type "Schematic Design")))
   (Folder "Outputs"
-    (File ".\f5529_cuitbike_v1_1.csv"
+    (File ".\cuitbike_v1_2.drc"
       (Type "Report"))
-    (File ".\f5529_cuitbike_v1_1.drc"
+    (File ".\cuitbike_v1_2.csv"
       (Type "Report"))
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -113,11 +109,21 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat"))
-    (File ".\f5529_cuitbike_v1_1.bom"
-      (Type "Report")))
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (MAX2659ELT+T
+      (FullPartName "MAX2659ELT+T.Normal")
+      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
+      (DeviceIndex "0"))
+    (MP2162GQH-Z
+      (FullPartName "MP2162GQH-Z.Normal")
+      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
+      (DeviceIndex "0"))
+    (BQ24090
+      (FullPartName "BQ24090.Normal")
+      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
+      (DeviceIndex "0"))
     (TitleBlock-xxxlzjxxx
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -202,63 +208,50 @@
     ("D SCHOTTKY"
       (FullPartName "D SCHOTTKY.Normal")
       (LibraryName "H:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "H:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
-      (DeviceIndex "0"))
-    (MP1450
-      (FullPartName "MP1450.Normal")
-      (LibraryName "H:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
-      (DeviceIndex "0"))
-    (XC6206P332MR
-      (FullPartName "XC6206P332MR.Normal")
-      (LibraryName "H:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\cuitbike_v1_1.dsn")
-      (Path "Design Resources" ".\cuitbike_v1_1.dsn" "MAIN_MSP430")
-      (Path "Design Resources" ".\cuitbike_v1_1.dsn" "RF")
+      (Path "Design Resources" ".\cuitbike_v1_2.dsn")
+      (Path "Design Resources" ".\cuitbike_v1_2.dsn" "MAIN_MSP430")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\cuitbike_v1_1.dsn"))
+      (Select "Design Resources" ".\cuitbike_v1_2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 292 0 529"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 292 0 529"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1200 26 524")
-        (Scroll "250 833")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -31 26 540 26 566")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "E:\GITHUB\TEST.CC\39_CUITBIKE\V1.1\SCH\CUITBIKE_V1_1.DSN")
-      (Schematic "MAIN_MSP430")
-      (Page "A02_MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1226 52 550")
-        (Scroll "0 642")
-        (Zoom "118")
-        (Occurrence "/"))
-      (Path "E:\GITHUB\TEST.CC\39_CUITBIKE\V1.1\SCH\CUITBIKE_V1_1.DSN")
+      (Path "E:\GITHUB\39_CUITBIKE\V1.2\SCH\CUITBIKE_V1_2.DSN")
       (Schematic "MAIN_MSP430")
       (Page "A03_MODULAR"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1252 78 576")
-        (Scroll "0 104")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -31 104 618 104 644")
+        (Scroll "782 127")
+        (Zoom "180")
         (Occurrence "/"))
-      (Path "E:\GITHUB\TEST.CC\39_CUITBIKE\V1.1\SCH\CUITBIKE_V1_1.DSN")
+      (Path "E:\GITHUB\39_CUITBIKE\V1.2\SCH\CUITBIKE_V1_2.DSN")
       (Schematic "MAIN_MSP430")
-      (Page "A01_POWER")))
+      (Page "A01_POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 728 182 722")
+        (Scroll "0 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path "E:\GITHUB\39_CUITBIKE\V1.2\SCH\CUITBIKE_V1_2.DSN")
+      (Schematic "MAIN_MSP430")
+      (Page "A02_MCU")))
   (MPSSessionName "HUIYUAN-LZJ")
   (ISPCBBASICLICENSE "false"))
