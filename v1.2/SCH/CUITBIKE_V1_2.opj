@@ -81,12 +81,12 @@
     (Netlist_TAB "0")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File
-       "E:\MAKINGPRODUCT\39_CUITBIKE\V1.1\SCH\F5529_CUITBIKE_V1_1.BOM")
+    (BOM_Report_File "E:\GitHub\39_CUITBIKE\v1.2\SCH\CUITBIKE_V1_2.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
-    (BOM_Header "Item\tQuantity\tReference\tPart\tPackage")
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{Description}\t{Corporation}\t{Manufacture}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\tPCB Footprint\tDescription\tCorporation\tManufacture")
     (BOM_Include_File
        "E:\MAKINGPRODUCT\39_CUITBIKE\V1.1\SCH\F5529_CUITBIKE_V1_1.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
@@ -109,7 +109,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\cuitbike_v1_2.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (MAX2659ELT+T
@@ -221,14 +223,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 292 0 529"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 292 0 529"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 540 26 566")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Scroll "45 1687")
+        (Zoom "236")
         (Occurrence "/"))
       (Path "E:\GITHUB\39_CUITBIKE\V1.2\SCH\CUITBIKE_V1_2.DSN")
       (Schematic "MAIN_MSP430")
@@ -236,9 +238,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 618 104 644")
-        (Scroll "782 127")
-        (Zoom "180")
+        (Placement "44 0 1 -1 -1 -8 -31 104 618 104 644")
+        (Scroll "1209 0")
+        (Zoom "172")
         (Occurrence "/"))
       (Path "E:\GITHUB\39_CUITBIKE\V1.2\SCH\CUITBIKE_V1_2.DSN")
       (Schematic "MAIN_MSP430")
@@ -248,7 +250,7 @@
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 182 728 182 722")
         (Scroll "0 0")
-        (Zoom "50")
+        (Zoom "59")
         (Occurrence "/"))
       (Path "E:\GITHUB\39_CUITBIKE\V1.2\SCH\CUITBIKE_V1_2.DSN")
       (Schematic "MAIN_MSP430")
