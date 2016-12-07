@@ -1,0 +1,65 @@
+\t (00:00:03) allegro 16.6-2015 S075 (v16-6-112GC) Windows 32
+\t (00:00:03)     Journal start - Mon Nov 28 22:25:40 2016
+\t (00:00:03)         Host=XXXLZJXXX User=xxxlzjxxx Pid=1280 CPUs=8
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe H:\github\39_CUITBIKE\v1.2\PCB\CUITBIKE_V1.2_MSP430.brd
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: H:/github/39_CUITBIKE/v1.2/PCB/CUITBIKE_V1.2_MSP430.brd
+\i (00:00:06) trapsize 643
+\i (00:00:06) trapsize 632
+\i (00:00:06) trapsize 645
+\i (00:00:06) trapsize 657
+\i (00:00:06) trapsize 770
+\i (00:00:06) generaledit 
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 25.2281 13.5685
+\i (00:00:07) trapsize 1539
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 25.3821 13.5684
+\i (00:00:07) trapsize 3078
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 35.2935 9.8131
+\i (00:00:08) trapsize 1539
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 35.2935 9.8132
+\i (00:00:08) trapsize 770
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out 33.1543 5.6578
+\i (00:00:09) trapsize 1539
+\t (00:00:10) >>EDA365 Skill V2.3 º”‘ÿ≥…π¶!
+\i (00:00:12) setwindow form.vf_vis
+\i (00:00:12) FORM vf_vis 2 all_colorvisible NO 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) EDA365_QuickView 
+   (00:00:15) Loading axlcore.cxt 
+\i (00:00:15) generaledit 
+\i (00:00:17) setwindow form.EDA365_QuickView
+\i (00:00:17) FORM EDA365_QuickView rowsilk_bottom YES 
+\i (00:00:17) FORM EDA365_QuickView rowsilk_bottom NO 
+\i (00:00:19) FORM EDA365_QuickView close  
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 39.5567 11.6293
+\i (00:00:19) trapsize 770
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 39.5567 11.6294
+\i (00:00:19) trapsize 385
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 39.5721 11.6755
+\i (00:00:19) trapsize 192
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 39.1489 10.9098
+\i (00:00:21) trapsize 385
+\i (00:07:26) pick grid 44.5664 11.1638
+\t (00:07:26) last pick:  44.6000 11.2000
+\i (00:32:35) exit 
+\t (00:32:35)     Journal end - Mon Nov 28 22:58:11 2016

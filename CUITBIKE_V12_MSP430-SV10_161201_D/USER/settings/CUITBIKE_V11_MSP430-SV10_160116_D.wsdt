@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>CUITBIKE_V11_MSP430-SV10_160116_D/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>227</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>18</ColumnWidth0><ColumnWidth1>882</ColumnWidth1><ColumnWidth2>235</ColumnWidth2><ColumnWidth3>58</ColumnWidth3></Build>
+      <Select-Ambiguous-Definitions>
+        <ColumnWidth0>424</ColumnWidth0>
+        <ColumnWidth1>60</ColumnWidth1>
+        <ColumnWidth2>727</ColumnWidth2>
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Find-All-Declarations</Factory></Window><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Select-Ambiguous-Definitions>
+    <TerminalIO/><Find-All-Declarations><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Select-Ambiguous-Definitions</Factory></Window><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>580</ColumnWidth0><ColumnWidth1>82</ColumnWidth1><ColumnWidth2>994</ColumnWidth2></Find-All-Declarations><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Select-Ambiguous-Definitions</Factory></Window><Window><Factory>Find-All-Declarations</Factory></Window></Windows></PreferedWindows><ColumnWidth0>17</ColumnWidth0><ColumnWidth1>1310</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15194-4801</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>CUITBIKE_V11_MSP430-SV10_160116_D</ExpandedNode><ExpandedNode>CUITBIKE_V11_MSP430-SV10_160116_D/HARDWARE</ExpandedNode><ExpandedNode>CUITBIKE_V11_MSP430-SV10_160116_D/HARDWARE/JLX12864</ExpandedNode><ExpandedNode>CUITBIKE_V11_MSP430-SV10_160116_D/SYSTEM</ExpandedNode><ExpandedNode>CUITBIKE_V11_MSP430-SV10_160116_D/SYSTEM/DELAY</ExpandedNode><ExpandedNode>CUITBIKE_V11_MSP430-SV10_160116_D/USER</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-28882-18063</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-5986-8931</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-68-9656</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>56</YPos2><SelStart2>2234</SelStart2><SelEnd2>2234</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\SYSTEM\GPIO\GPIO.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>25</YPos2><SelStart2>2500</SelStart2><SelEnd2>2500</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\HARDWARE\JLX12864\LCD12864.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>623</YPos2><SelStart2>48051</SelStart2><SelEnd2>48051</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\HARDWARE\JLX12864\LCD12864.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>469</SelStart2><SelEnd2>469</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\SYSTEM\SYSCLK\sysclk.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3</YPos2><SelStart2>1101</SelStart2><SelEnd2>1101</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-059B08C8><key>iaridepm.enu1</key></Toolbar-059B08C8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7><Row8><Sizes/></Row8><Row9><Sizes/></Row9><Row10><Sizes/></Row10><Row11><Sizes/></Row11><Row12><Sizes/></Row12><Row13><Sizes/></Row13><Row14><Sizes/></Row14><Row15><Sizes/></Row15><Row16><Sizes/></Row16><Row17><Sizes/></Row17><Row18><Sizes/></Row18><Row19><Sizes/></Row19><Row20><Sizes/></Row20><Row21><Sizes/></Row21><Row22><Sizes/></Row22><Row23><Sizes><Toolbar-0F88CBA0><key>debuggergui.enu1</key></Toolbar-0F88CBA0></Sizes></Row23><Row24><Sizes><Toolbar-0F88DD98><key>430fet1</key></Toolbar-0F88DD98></Sizes></Row24></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>814</Bottom><Right>301</Right><x>-2</x><y>-2</y><xscreen>231</xscreen><yscreen>162</yscreen><sizeHorzCX>195763</sizeHorzCX><sizeHorzCY>162325</sizeHorzCY><sizeVertCX>256780</sizeVertCX><sizeVertCY>817635</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>139</Bottom><Right>1182</Right><x>-2</x><y>-2</y><xscreen>1184</xscreen><yscreen>141</yscreen><sizeHorzCX>1003390</sizeHorzCX><sizeHorzCY>141283</sizeHorzCY><sizeVertCX>125424</sizeVertCX><sizeVertCY>141283</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
