@@ -52,10 +52,10 @@ float GetTemperature(void);
 /***********************************定义变量***********************************/
 float BatteryVoltage = 0, Temperature = 0;
 unsigned int Flag_Timer1A0 = 0;
-unsigned char adcvalue[5] = {1,2,3,4,5};
+char adcvalue[5] = {1,2,3,4,5};
 unsigned char string = 0x01;
 
-extern const unsigned char  bmp1[], bmp3[];
+extern const unsigned char  bmp1[], page1[], page2[], page3[];
 /*******************************主函数*****************************************/
 void main( void )
 {  
@@ -66,6 +66,7 @@ void main( void )
 //    USBCNF &= ~USB_EN;
     
     Init_TimerB0();
+    ADC12_Init();
     
     _EINT();
 //读取EEPROM的相关配置信息	
@@ -79,10 +80,18 @@ void main( void )
 //	Send_232_data(x, 2);
 //	Send_232_data(y, 1);
 	Initial_lcd();
-	display_128x64(bmp1);	
+	display_128x64(bmp1);
+    delay_ms(500);
+    clear_screen();
+    
 	while(1)
 	{
-		 display_128x64(bmp1);
+		 display_128x64(page1);
+         delay_ms(2000);
+         display_128x64(page2);
+         delay_ms(2000);
+         display_128x64(page3);
+         delay_ms(2000);
 	}
 }
 /*******************************************************************************
@@ -235,6 +244,6 @@ float GetTemperature(void)
 //  	Ext_Wdog_Feed();
 //	
 //	return TmpAvg
-    ;
+    return 0;
 }
 

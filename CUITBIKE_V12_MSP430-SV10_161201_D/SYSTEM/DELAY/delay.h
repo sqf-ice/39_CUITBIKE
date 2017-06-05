@@ -6,7 +6,7 @@
 #ifndef __DELAY_H
 #define __DELAY_H
 
-#define CPU_F  25000000
+#define CPU_F  1000000
 
 #define delay_us(x) 	__delay_cycles((long)(CPU_F*(double)x/1000000.0) )//x MHz----us
 #define delay_ms(x) 	__delay_cycles((long)(CPU_F*(double)x/1000.0))

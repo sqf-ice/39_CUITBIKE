@@ -37,6 +37,6 @@ void ADC12_Init(void)
 /* Initialize adc12 */ 
   	ADC12CTL0 = ADC12SHT0_15 + ADC12ON + ADC12MSC; 
   	ADC12CTL1 = ADC12SHP + ADC12CONSEQ_1 + ADC12SSEL_1;// Use sampling timer, repeated sequence,ADCCLK=ACLK
-  	ADC12MCTL0 = ADC12SREF_0 + ADC12INCH_0 + ADC12EOS;        // ref+=AVcc, channel = A0, end seq.
+  	ADC12MCTL0 = ADC12SREF_0 + ADC12INCH_0 + ADC12EOS;        // ref+=AVcc = 3.275V, channel = A0, end seq.
   	ADC12CTL0 |=  ADC12ENC;  
 }

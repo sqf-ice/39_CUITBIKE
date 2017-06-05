@@ -39,6 +39,7 @@ void __attribute__ ((interrupt(TIMERB0_VECTOR))) TIMERB1_ISR (void)
 #error Compiler not supported!
 #endif
 {
-    P4OUT ^= BIT7;                          // Toggle P1.0 using exclusive-OR
+    LED0_OVERTURN;
+    LED1_OVERTURN;                          // Toggle P1.0 using exclusive-OR
 }
 

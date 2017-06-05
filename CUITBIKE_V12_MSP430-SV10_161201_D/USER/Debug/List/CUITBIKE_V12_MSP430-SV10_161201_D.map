@@ -1,8 +1,8 @@
 ################################################################################
 #                                                                              #
-#      IAR Universal Linker V6.0.0.46                                          #
+#      IAR Universal Linker V6.5.0.91                                          #
 #                                                                              #
-#           Link time     =  07/Dec/2016  22:37:12                             #
+#           Link time     =  05/Jun/2017  23:44:34                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_16 #
 #                            1201_D\USER\Debug\List\CUITBIKE_V12_MSP430-SV10_1 #
@@ -10,11 +10,13 @@
 #           Output file 1 =  H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_16 #
 #                            1201_D\USER\Debug\Exe\CUITBIKE_V12_MSP430-SV10_16 #
 #                            1201_D.d43                                        #
-#                            Format: debug                                     #
+#                            Format: ubrof10                                   #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Command line  =  H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_16 #
-#                            1201_D\USER\Debug\Obj\adc12.r43                   #
+#           Command line  =  -f                                                #
+#                            C:\Users\XXXLZJ~1\AppData\Local\Temp\EWBF9E.tmp   #
+#                            (H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_1 #
+#                            61201_D\USER\Debug\Obj\adc12.r43                  #
 #                            H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_16 #
 #                            1201_D\USER\Debug\Obj\check.r43                   #
 #                            H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_16 #
@@ -42,17 +44,18 @@
 #                            1201_D\USER\Debug\List\CUITBIKE_V12_MSP430-SV10_1 #
 #                            61201_D.map                                       #
 #                            -xes                                              #
-#                            "-ID:\IAR Systems\Embedded Workbench 7.0\430\LIB\ #
-#                            "                                                 #
+#                            "-ID:\IAR 430\Embedded Workbench 8.0\430\LIB\"    #
 #                            -f                                                #
-#                            "D:\IAR Systems\Embedded Workbench 7.0\430\config #
-#                            \linker\lnk430F5529.xcl"                          #
+#                            "D:\IAR 430\Embedded Workbench 8.0\430\config\lin #
+#                            ker\lnk430f5529.xcl"                              #
 #                            (-cmsp430 -D?CPU30_OFFSET=2 -QCODE_I=CODE_ID      #
-#                            -QTLS16_I=TLS16_ID -Z(CONST)INFO=1800-19FF        #
+#                            -QTLS16_I=TLS16_ID -D__iar_HWMUL=4C0              #
+#                            -Z(CONST)INFO=1800-19FF                           #
 #                            -Z(CONST)INFOA=1980-19FF                          #
 #                            -Z(CONST)INFOB=1900-197F                          #
 #                            -Z(CONST)INFOC=1880-18FF                          #
 #                            -Z(CONST)INFOD=1800-187F                          #
+#                            -Z(DATA)USBRAM=1C00-23FF                          #
 #                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I=2400-4 #
 #                            3FF                                               #
 #                            -Z(DATA)DATA16_HEAP+_DATA16_HEAP_SIZE             #
@@ -64,28 +67,27 @@
 #                            KSUM=4400-FF7F                                    #
 #                            -Z(CODE)CSTART,ISR_CODE,CODE16=4400-FF7F          #
 #                            -P(CODE)CODE=4400-FF7F,10000-243FF                #
-#                            -Z(CODE)CODE_ID                                   #
-#                            -Z(CONST)DATA20_C,DATA20_ID=4400-FF7F,10000-243FF #
+#                            -Z(CONST)DATA20_C,DATA20_ID,CODE_ID=4400-FF7F,100 #
+#                            40-243FF                                          #
 #                            -Z(CODE)INTVEC=FF80-FFFF                          #
 #                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
-#                            "D:\IAR Systems\Embedded Workbench 7.0\430\config #
-#                            \linker\multiplier32_loc2.xcl"                    #
-#                            (-e?Mul8HwLoc2=?Mul8 -e?Mul16HwLoc2=?Mul16        #
-#                            -e?Mul16to32uHwLoc2=?Mul16to32u                   #
-#                            -e?Mul16to32sHwLoc2=?Mul16to32s                   #
-#                            -e?Mul32Hw32Loc2=?Mul32                           #
-#                            -e?Mul64Hw32Loc2=_Mul64i                          #
-#                            -e?Mul32u32uto64iHw32Loc2=_Mul32u32uto64i         #
-#                            -e?Mul32fHwLoc2=_Mul32f                           #
-#                            -e_Mul64fHwPtrLoc2=_Mul64fPtr)                    #
-#                            -D_STACK_SIZE=400 -rt                             #
-#                            "D:\IAR Systems\Embedded Workbench 7.0\430\lib\dl #
-#                            ib\dl430xlmff.r43"                                #
+#                            "D:\IAR 430\Embedded Workbench 8.0\430\config\lin #
+#                            ker\multiplier32.xcl"                             #
+#                            (-e?Mul8Hw=?Mul8 -e?Mul16Hw=?Mul16                #
+#                            -e?Mul16to32uHw=?Mul16to32u                       #
+#                            -e?Mul16to32sHw=?Mul16to32s -e?Mul32Hw32=?Mul32   #
+#                            -e?Mul64Hw32=_Mul64i                              #
+#                            -e?Mul32u32uto64iHw32=_Mul32u32uto64i             #
+#                            -e?Mul32fHw32=_Mul32f                             #
+#                            -e_Mul64fHw32Ptr=_Mul64fPtr) -D_STACK_SIZE=400    #
+#                            -rt                                               #
+#                            "D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\d #
+#                            l430xlmff.r43"                                    #
 #                            -e_PrintfLarge=_Printf -e_ScanfLarge=_Scanf       #
 #                            -D_DATA16_HEAP_SIZE=80 -s __program_start         #
-#                            -D_DATA20_HEAP_SIZE=50                            #
+#                            -D_DATA20_HEAP_SIZE=50)                           #
 #                                                                              #
-#                           Copyright (C) 1987-2014 IAR Systems AB.            #
+#                           Copyright (C) 1987-2016 IAR Systems AB.            #
 ################################################################################
 
 
@@ -98,7 +100,7 @@
                 *                                      *
                 ****************************************
 
-       Program entry at :           4800  Relocatable, from module : ?cstart
+       Program entry at :           5400  Relocatable, from module : ?cstart
 
 
 
@@ -143,6 +145,7 @@ Module  Entry                       Address
         _DATA20_HEAP_SIZE            0050
         _DATA16_HEAP_SIZE            0080
         _STACK_SIZE                  0400
+        __iar_HWMUL                  04C0
         ?CPU30_OFFSET                0002
 adc12 ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\adc12.r43 )
         _A_ADC12CTL0_L               0700
@@ -150,6 +153,7 @@ adc12 ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\a
         ADC12MCTL0                   0710
         _A_PCSEL_L                   024A
         _A_REFCTL0_L                 01B0
+        ADC12_Init                   56B6
         ADC12CTL0                    0700
         ADC12CTL0_H                  0701
         ADC12CTL0_L                  0700
@@ -188,7 +192,7 @@ GPIO ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\GP
         _A_PCDIR_L                   0244
         _A_PDOUT_L                   0262
         _A_PDDIR_L                   0264
-        GPIO_Init                    48E4
+        GPIO_Init                    543E
         PAOUT                        0202
         PAOUT_H                      0203
         PAOUT_L                      0202
@@ -218,13 +222,17 @@ GPIO ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\GP
         PDDIR_L                      0264
 LCD12864 ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\LCD12864.r43 )
         _A_PDIN_L                    0260
-        bmp1                         4400
-        delayms                      4AE2
-        transfer_command_lcd         49B8
-        transfer_data_lcd            49EE
-        Initial_lcd                  4838
-        lcd_address                  4A7C
-        display_128x64               4A50
+        page1                        4400
+        page2                        4800
+        page3                        4C00
+        bmp1                         5000
+        delayms                      5720
+        transfer_command_lcd         5654
+        transfer_data_lcd            561E
+        Initial_lcd                  54D6
+        lcd_address                  5700
+        clear_screen                 55E6
+        display_128x64               568A
         PCOUT                        0242
         PCOUT_H                      0243
         PCOUT_L                      0242
@@ -244,8 +252,8 @@ main ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\ma
         _A_ADC12IFG_L                070A
         _A_ADC12MEM0_L               0720
         Flag_Timer1A0                2400
-        main                         4A24
-        TIMER1_A0_ISR                4818
+        main                         556C
+        TIMER1_A0_ISR                5418
         TIMER1_A0_ISR::??INTVEC 98   FFE2
         ADC12CTL0                    0700
         ADC12CTL0_H                  0701
@@ -260,30 +268,7 @@ main ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\ma
         PDOUT_H                      0263
         PDOUT_L                      0262
 sysclk ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\sysclk.r43 )
-        _A_SFRIFG1_L                 0102
-        _A_UCSCTL3_L                 0166
-        _A_UCSCTL4_L                 0168
-        _A_UCSCTL6_L                 016C
-        _A_UCSCTL7_L                 016E
-        SystemClock                  497C
-        PCSEL                        024A
-        PCSEL_H                      024B
-        PCSEL_L                      024A
-        SFRIFG1                      0102
-        SFRIFG1_H                    0103
-        SFRIFG1_L                    0102
-        UCSCTL3                      0166
-        UCSCTL3_H                    0167
-        UCSCTL3_L                    0166
-        UCSCTL4                      0168
-        UCSCTL4_H                    0169
-        UCSCTL4_L                    0168
-        UCSCTL6                      016C
-        UCSCTL6_H                    016D
-        UCSCTL6_L                    016C
-        UCSCTL7                      016E
-        UCSCTL7_H                    016F
-        UCSCTL7_L                    016E
+        SystemClock                  577A
 timer ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\timer.r43 )
         TA1CTL                       0380
         TA1CCTL0                     0382
@@ -292,88 +277,86 @@ timer ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\t
         TB0CTL                       03C0
         TB0CCTL0                     03C2
         TB0CCR0                      03D2
-        Init_TimerB0                 4AFA
-        TIMERB1_ISR                  4830
+        Init_TimerB0                 5738
+        TIMERB1_ISR                  5430
         TIMERB1_ISR::??INTVEC 118    FFF6
         PBOUT                        0222
         PBOUT_H                      0223
         PBOUT_L                      0222
 wdog ( H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\Debug\Obj\wdog.r43 )
         _A_WDTCTL_L                  015C
-        WDOG_Init                    4AA6
+        WDOG_Init                    56DC
         WDTCTL                       015C
         WDTCTL_H                     015D
         WDTCTL_L                     015C
-?abort ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?__dbg_break ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-        __DebugBreak                 4B28
-?remove ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?__close ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?__dwrite ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?__exit ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-        __exit                       4ACA
-?__write ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?_exit ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-        _exit                        4B24
-?cos ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?cppinit ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?cstart ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-        __program_start              4800
-        ?cstart_begin                4800
-        ?cstart_init_zero            4804
-        ?cstart_call_main            4810
-        ?cstart_end                  4818
-lowinit ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?reset_vector ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
+?abort ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?__dbg_break ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+        __DebugBreak                 5778
+?remove ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?__close ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?__dwrite ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?__exit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+        __exit                       574C
+?__write ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?_exit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+        _exit                        5770
+?cos ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?cppinit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?cstart ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+        __program_start              5400
+        ?cstart_begin                5400
+        ?cstart_init_zero            5404
+        ?cstart_call_main            5410
+        ?cstart_end                  5418
+lowinit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?reset_vector ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
         ?reset_vector                FFFE
-?errno ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?exit ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-        exit                         4B20
-?fclose ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?fflush ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?fmod ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?Cast32f32i ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_Cast32fto32s ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?FLT_Extract ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?FLT_EQ ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?FLT_GE ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?FLT_LT ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_CmpEq32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_CmpNe32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_CmpGe32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_CmpLt32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_Div32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-_Add32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?Mul32fHwLoc2 ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?log ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?malloc ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?DivMod816u ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?DivMod816s ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?ShiftLeft32 ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?memcpy ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?memmove ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?memzero ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-        __data16_memzero             4B0E
-?MpuInit ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?pow ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?setjmp ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?longjmp ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?sin ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?sqrt ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xcloseall ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xdint ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xdscale ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xdtest ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xdunscal ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xexp ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xfiles ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xfofind ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xgetmemchunk ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xlog ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xquad ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xsin ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xxmemxfree ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
-?xxmemxmalloc ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
+?errno ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?exit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+        exit                         5774
+?fclose ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?fflush ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?Mul32fHw32 ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?fmod ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?free ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?FrwpInit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?Cast32f32i ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+_Cast32fto32s ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?FLT_Extract ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?FLT_EQ ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?FLT_GE ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?FLT_LT ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+_Div32f ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+_Add32f ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?log ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?malloc ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?DivMod816u ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?DivMod816s ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?ShiftLeft32 ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?memcpy ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?memmove ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?memzero ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+        __data16_memzero             5760
+?MpuInit ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?pow ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?setjmp ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?longjmp ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?sin ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?sqrt ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xcloseall ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xdint ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xdscale ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xdtest ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xdunscal ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xexp ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xfiles ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xfofind ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xgetmemchunk ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xlog ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xquad ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xsin ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xxmemxfree ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
+?xxmemxmalloc ( D:\IAR 430\Embedded Workbench 8.0\430\lib\dlib\dl430xlmff.r43 )
 
 
                 ****************************************
@@ -385,10 +368,7 @@ _Add32f ( D:\IAR Systems\Embedded Workbench 7.0\430\lib\dlib\dl430xlmff.r43 )
 
 SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
 =======              =====    =============   ===========     ====  ====  =====
-DATA16_AN                              0102 - 0103               2   rel    0
-                                       015C - 015D               2 
-                                       0166 - 0169               4 
-                                       016C - 016F               4 
+DATA16_AN                              015C - 015D               2   rel    0
                                        01B0 - 01B1               2 
                                        0200 - 0205               6 
                                        020A - 020B               2 
@@ -407,11 +387,18 @@ DATA16_AN                              0102 - 0103               2   rel    0
                                        0720 - 0721               2 
 DATA16_I                                  2400                       dse    0
 DATA16_Z                               2400 - 2401               2   rel    1
+CODE_I                                    2402                       rel    1
+DATA20_Z                                  2402                       rel    1
+DATA20_N                                  2402                       rel    1
+DATA20_I                                  2402                       rel    1
 CSTACK                                 4000 - 43FF             400   rel    1
-DATA16_C                               4400 - 47FF             400   rel    0
-CSTART                                 4800 - 4817              18   rel    1
-ISR_CODE                               4818 - 4837              20   rel    1
-<CODE> 1                               4838 - 4B29             2F2   rel    1
+DATA16_C                               4400 - 53FF            1000   rel    0
+CSTART                                 5400 - 5417              18   rel    1
+ISR_CODE                               5418 - 543D              26   rel    1
+<CODE> 1                               543E - 577B             33E   rel    1
+CODE_ID                                   577C                       rel    1
+DATA20_ID                                 577C                       rel    1
+DATA20_C                                  577C                       rel    1
 INTVEC                                 FF80 - FFF7              78   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 
@@ -421,9 +408,9 @@ RESET                                  FFFE - FFFF               2   rel    1
                 *                                      *
                 ****************************************
 
-   932 bytes of CODE  memory
- 1 026 bytes of DATA  memory (+ 61 absolute )
- 1 024 bytes of CONST memory
+ 1 014 bytes of CODE  memory
+ 1 026 bytes of DATA  memory (+ 51 absolute )
+ 4 096 bytes of CONST memory
 
 Errors: none
 Warnings: none

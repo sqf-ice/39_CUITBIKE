@@ -18,13 +18,13 @@
 #define LCD_ON                  (P6OUT |= BIT7)
 #define LCD_OFF                 (P6OUT &= ~BIT7)
 
-#define LED0_ON                  (P4OUT |= BIT6)
-#define LED0_OFF                 (P4OUT &= ~BIT6)
-#define LED0_OVERTURN            (P4OUT = ^BIT6)
+#define LED0_OFF                (P4OUT |= BIT6)
+#define LED0_ON                 (P4OUT &= ~BIT6)
+#define LED0_OVERTURN           (P4OUT ^= BIT6)
 
-#define LED1_ON                  (P4OUT |= BIT7)
-#define LED1_OFF                 (P4OUT &= ~BIT7)
-#define LED1_OVERTURN            (P4OUT ^= BIT7)
+#define LED1_OFF                (P4OUT |= BIT7)
+#define LED1_ON                 (P4OUT &= ~BIT7)
+#define LED1_OVERTURN           (P4OUT ^= BIT7)
 /********************************************/
 void GPIO_Init();
 //void Ext_Wdog_Feed(void);

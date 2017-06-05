@@ -19,6 +19,22 @@
 @REM 
 
 
-"D:\IAR Systems\Embedded Workbench 7.0\common\bin\cspybat" "D:\IAR Systems\Embedded Workbench 7.0\430\bin\430proc.dll" "D:\IAR Systems\Embedded Workbench 7.0\430\bin\430fet.dll"  %1 --plugin "D:\IAR Systems\Embedded Workbench 7.0\430\bin\430bat.dll" --backend -B "--hardware_multiplier" "32" "--hwmult_type" "8" "-p" "D:\IAR Systems\Embedded Workbench 7.0\430\config\debugger\MSP430F5529.ddf" "--core=430Xv2" "--data_model=medium" "--iv_base" "0xFF80" "--cpu_bug_30" "-d" "fet" "--erase_main" "--derivative" "MSP430F5529" "--protocol" "automatic" "--eem" "EMEX_LARGE_5XX" "--port" "Automatic" "--connection" "ti_usb" "--settlingtime=0" "--msp430_dll" "msp430.dll" "--vccDefault" "3.3" "--jtag_speed" "fast" "--memtype" "F" 
+@echo off 
 
+if not "%~1" == "" goto debugFile 
 
+@echo on 
+
+"D:\IAR 430\Embedded Workbench 8.0\common\bin\cspybat" -f "H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\settings\CUITBIKE_V12_MSP430-SV10_161201_D.Debug.general.xcl" --backend -f "H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\settings\CUITBIKE_V12_MSP430-SV10_161201_D.Debug.driver.xcl" 
+
+@echo off 
+goto end 
+
+:debugFile 
+
+@echo on 
+
+"D:\IAR 430\Embedded Workbench 8.0\common\bin\cspybat" -f "H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\settings\CUITBIKE_V12_MSP430-SV10_161201_D.Debug.general.xcl" "--debug_file=%~1" --backend -f "H:\github\39_CUITBIKE\CUITBIKE_V12_MSP430-SV10_161201_D\USER\settings\CUITBIKE_V12_MSP430-SV10_161201_D.Debug.driver.xcl" 
+
+@echo off 
+:end
